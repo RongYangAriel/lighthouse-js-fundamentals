@@ -1,9 +1,9 @@
 const range = (start, end, step) => {
-  let arr = [];
+  let newArr = [];
   for(let count = start; count <= end; count  = count + step){
-    arr.push(count);
+    newArr.push(count);
   } 
-  return arr;
+  return newArr;
 }
 
 console.log(range(0, 10, 2));
