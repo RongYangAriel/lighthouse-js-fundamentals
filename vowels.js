@@ -10,4 +10,6 @@ const numberOfVowels  = (data) =>{
 
 console.log(numberOfVowels("orange"));
 console.log(numberOfVowels("lighthouse labs"));
-console.log(numberOfVowels("aeiou"));
+console.log(numberOfVowels("aa"));
+
+console.log('vowels.js is running');
